@@ -1,4 +1,4 @@
-🤖 Telegram Pedido Bot
+🤖 Telegram Pedidos Bot
 
 Bot de Telegram en **Python** que permite a los usuarios realizar pedidos (series, películas, juegos u otros) y a los administradores gestionarlos fácilmente mediante comandos y botones interactivos.
 Incluye sistema multilenguaje, soporte privado, administración de usuarios, estadísticas, limpieza automática de pedidos y copias de seguridad.
@@ -31,8 +31,8 @@ Incluye sistema multilenguaje, soporte privado, administración de usuarios, est
 
 1. **Clonar el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/telegram-pedido-bot.git
-   cd telegram-pedido-bot
+   git clone https://github.com/jonatanvc/telegram-pedidos-bot.git
+   cd telegram-pedidos-bot
    ```
 
 2. **Instalar dependencias**
@@ -102,7 +102,7 @@ El bot usará **long polling** para escuchar los mensajes y comandos de los usua
 🧩 Estructura del proyecto
 
 ```
-📁 telegram-pedido-bot/
+📁 telegram-pedidos-bot/
 │
 ├── main.py           # Lógica principal del bot
 ├── database.py       # Funciones de base de datos (usuarios, pedidos, soporte)
